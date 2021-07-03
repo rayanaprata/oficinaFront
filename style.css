@@ -6,3 +6,67 @@
   font: inherit;
   vertical-align: baseline;
 }
+
+.navbar {
+  height: 85px;
+}
+.nav ul {
+  font-family: "Montserrat", sans-serif;
+  color: #2f2e41;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: table;
+  text-align: center;
+}
+.nav li {
+  display: table-cell;
+  position: relative;
+  padding: 15px 0;
+}
+.nav a {
+  color: #2f2e41;
+}
+
+.nav a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #f9c239;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.nav a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+header {
+  margin-bottom: 150px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+ #titulo{
+  color: #f9c239;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+body{
+  background-color: #eeeeee;
+}
+
+.imagem {
+  margin-bottom: 5%;
+}
