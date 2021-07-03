@@ -1,39 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sara Tiedt</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Portfólio Sara</title>
-</head>
+ //xaxax
 
-<body>
 
-  <!-- Menu de navegação -->
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Sobre</a></li>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Contato</a></li>
-    </ul>
-  </nav>
-
-  <section class="hero">
-    <div class="container">
-      <div class="text">
-        <h2>Eu sou Sara!</h2>
-        <p>Desenvolvedora Frontend</p>
-        <button>Contrate-me</button>
-      </div>
-      <div class="imagem">
-        <img src="img/hero.svg">
-      </div>
+  <body>
+    <header></header>
+    <!-- Menu de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #E4E4E4">
+      <div class="container">
+        <a href="#" id="titulo">Sara Tiedt</a>
+      <ul class="nav justify-content-end">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+      </ul>
     </div>
-  </section>
+    </nav>
+  </header>
 
-</body>
+    <section class="hero">
+      <div class="container">
+        <div class="text">
+          <h2 id="home">Eu sou Sara!</h2>
+          <p>Desenvolvedora Frontend</p>
+          <button>Contrate-me</button>
+        </div>
+        <div class="imagem">
+          <img src="img/hero.svg" />
+        </div>
 
+        <div id="about">
+          <h2 id="home">Sobre mim</h2>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+            illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+            explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+            odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+            voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+            quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
+            eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+            voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
+            corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+            Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
+            quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
+            voluptas nulla pariatur?</p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
