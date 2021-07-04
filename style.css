@@ -188,24 +188,42 @@ body {
 
 .footer {
   text-align: center;
-  padding: 20px 0;
-  position: relative;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  color: #4d4d4d;
+  height: 170px;
+  background: rgb(231, 227, 248);
+  padding-top: 50px;
 }
 
-.link-git {
-  color: #9792f1;
+.contato-link {
+  color: #8f8be4;
 }
 
-.link-git:hover {
-  color: #605ada;
+.contato-link:hover {
+  color: #4942cf;
   text-decoration: none;
 }
 
-.footer-txt {
-  margin: auto;
+.footer li {
+  display: inline;
+  padding: 0 40px;
+  border-right: 1px solid white;
+}
+
+.footer li:nth-child(7) {
+  border-right: none;
+}
+
+.footer p {
+  text-align: center;
+}
+
+.link-git {
+  color: #4942cf;
+}
+
+.link-git:hover {
+  color: #8f8be4;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
