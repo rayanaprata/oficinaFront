@@ -80,12 +80,12 @@ header {
   font-family: "Dancing Script", cursive;
   font-size: 28px;
   font-weight: 600;
-  text-decoration: none;
 }
 
 .nome-menu:hover {
   color: #6058f3;
-  cursor: default;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 body {
