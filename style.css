@@ -134,6 +134,7 @@ body {
 
 .sobre {
   padding: 20px;
+  margin-bottom: 300px;
 }
 
 .titulo-sobre {
@@ -245,7 +246,7 @@ body {
     width: 60%;
   }
   .sobre {
-    margin: 120px 10px;
+    margin: 120px 15px 300px 15px;
     font-size: 18px;
   }
 }
