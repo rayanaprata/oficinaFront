@@ -133,7 +133,7 @@ body {
 }
 
 .sobre {
-  margin: 80px;
+  padding: 20px;
 }
 
 .titulo-sobre {
@@ -151,7 +151,7 @@ body {
 }
 
 .card {
-  margin: 20px 0;
+  margin: 20px auto;
   border: 1px solid rgb(236, 236, 236);
   border-radius: 5px;
   width: 300px;
@@ -226,7 +226,7 @@ body {
     margin-left: 100px;
   }
   .sobre {
-    margin: 120px 170px;
+    margin: 120px 10px;
     font-size: 18px;
   }
 }
