@@ -223,7 +223,8 @@ body {
   .texto {
     text-align: left;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 10px;
+    width: 60%;
   }
   .sobre {
     margin: 120px 10px;
