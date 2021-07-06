@@ -12,7 +12,7 @@ Nesta oficina você construirá um website de Portfólio Pessoal para disponibil
 ## 📋 Quer saber mais sobre a oficina?
 
 Assista o vídeo de introdução e confira  o resultado final:
-[Introdução - Oficina de Frontend - Desenvolvendo um Portfólio Pessoal](https://www.loom.com/share/797d52c891c448fdb7b2eb3cb2e11a4b)
+[Introdução - Oficina de Frontend](https://www.loom.com/share/797d52c891c448fdb7b2eb3cb2e11a4b)
 
 ### Ao longo de sete aulas vamos te ensinar a construir este [Portfólio Pessoal](https://portfoliopessoal.rayanaprata.repl.co/). 
 Você poderá customizá-lo e deixar do seu jeito! 💜
