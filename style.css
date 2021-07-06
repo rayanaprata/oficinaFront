@@ -6,12 +6,13 @@
   box-sizing: border-box;
 }
 
-ul {
-  list-style: none;
+body {
+  background-color: #eeeeee;
 }
 
-a {
-  text-decoration: none;
+*::selection {
+  background-color: #605ada;
+  color: #fff;
 }
 
 img {
@@ -19,9 +20,17 @@ img {
   height: auto;
 }
 
-*::selection {
-  background: #7b71d3;
-  color: #fff;
+.nome-menu {
+  color: #605ada;
+  font-family: "Dancing Script", cursive;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.nome-menu:hover {
+  color: #6058f3;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .navbar {
@@ -29,33 +38,15 @@ img {
   background-color: rgb(231, 227, 248);
 }
 
-.nav ul {
-  font-family: "Montserrat", sans-serif;
-  color: #2f2e41;
-  margin: 0 auto;
-  padding: 0;
-  list-style: none;
-  display: table;
-  text-align: center;
-}
-
 .nav li {
-  display: table-cell;
   position: relative;
-  padding: 15px 0;
 }
 
 .nav a {
   color: #42326b;
 }
 
-.nav a:hover {
-  color: #0f0627;
-}
-
 .nav a:after {
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
   content: "";
   display: block;
   height: 2px;
@@ -73,23 +64,6 @@ img {
 
 header {
   margin-bottom: 150px;
-}
-
-.nome-menu {
-  color: #605ada;
-  font-family: "Dancing Script", cursive;
-  font-size: 28px;
-  font-weight: 600;
-}
-
-.nome-menu:hover {
-  color: #6058f3;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-body {
-  background-color: #eeeeee;
 }
 
 .home {
@@ -133,8 +107,7 @@ body {
 }
 
 .sobre {
-  padding: 20px;
-  margin-bottom: 300px;
+  margin: 80px;
 }
 
 .titulo-sobre {
@@ -152,7 +125,7 @@ body {
 }
 
 .card {
-  margin: 20px auto;
+  margin: 20px 0;
   border: 1px solid rgb(236, 236, 236);
   border-radius: 5px;
   width: 300px;
@@ -161,37 +134,34 @@ body {
   align-items: center;
 }
 
-.description {
-  text-align: center;
-  margin: 10px;
-}
-
 .card-titulo {
   margin: 15px 0;
   color: #605ada;
 }
 
+.descricao {
+  margin: 10px;
+  text-align: center;
+}
+
 .btn-card {
-  background-color: #6c63ff;
-  color: rgb(255, 255, 255);
-  border-radius: 5px;
+  background-color: #605ada;
+  color: white;
+  border-radius: 25px;
   border: none;
-  cursor: pointer;
   margin: 15px 0;
   padding: 10px 20px;
-  border-radius: 25px;
 }
 
 .btn-card:hover {
-  background-color: #605ada;
-  color: rgb(241, 239, 252);
+  background-color: rgb(137, 120, 235);
 }
 
 .footer {
   text-align: center;
   color: #4d4d4d;
   height: 170px;
-  background: rgb(231, 227, 248);
+  background-color: rgb(231, 227, 248);
   padding-top: 50px;
 }
 
@@ -207,7 +177,7 @@ body {
 .footer li {
   display: inline;
   padding: 0 40px;
-  border-right: 1px solid white;
+  border-right: 1px solid #fff;
 }
 
 .footer li:nth-child(4) {
@@ -224,7 +194,6 @@ body {
 
 .link-git:hover {
   color: #8f8be4;
-  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -245,8 +214,9 @@ body {
     margin-left: 10px;
     width: 60%;
   }
+
   .sobre {
-    margin: 120px 15px 300px 15px;
+    margin: 120px 170px;
     font-size: 18px;
   }
 }
