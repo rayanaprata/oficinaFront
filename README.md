@@ -34,7 +34,7 @@ Você poderá customizá-lo e deixar do seu jeito! 💜
 
 - [ ] [Aula 06 - Portfólio](https://www.loom.com/share/70ec323a92824cc1931dedfced2343f1)
 
-- [ ] [Aula 07 - Footer da página](https://www.loom.com/share/516462d624e14caea5ad205abcdce951)
+- [ ] [Aula 07 - Footer](https://www.loom.com/share/516462d624e14caea5ad205abcdce951)
 
 
 ## 💡 Conceitos apresentados na Oficina:
