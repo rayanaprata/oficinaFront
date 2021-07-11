@@ -1,5 +1,5 @@
 
-# Oficina de Frontend - Desenvolvendo um Portfólio Pessoal 👩‍💻
+# Oficina de Frontend 👩‍💻
 
 
 ## 📄  Sobre o Projeto
